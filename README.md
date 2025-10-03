@@ -69,9 +69,9 @@
 4. `crud.py` faylida yuqoridagi CRUD va Query funksiyalarini yozing.
 5. Har bir yozgan funksiyani `main.py` faylda chaqirib tekshiring.
 
-### Structure
-
-blog_exam/
+### File Structure
+```
+blog-exam/
 │── .env
 │── .env.sample
 │── requirements.txt
@@ -83,3 +83,4 @@ blog_exam/
 ├── models.py
 ├── crud.py
 ├── main.py
+```
