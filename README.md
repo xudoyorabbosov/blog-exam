@@ -67,7 +67,7 @@
    * Database initialize qiling (`Base.metadata.create_all`)
    * `demo_data.json` fayldan ma’lumotlarni DB ga yuklang
 4. `crud.py` faylida yuqoridagi CRUD va Query funksiyalarini yozing.
-5. Har bir yozgan funksiyani `main.py` faylda chaqirib tekshiring.
+5. Har bir yozgan funksiyani `test.py` faylda chaqirib tekshiring.
 
 ### File Structure
 ```
@@ -84,4 +84,5 @@ blog-exam/
 ├── models.py
 ├── crud.py
 ├── main.py
+├── test.py
 ```
