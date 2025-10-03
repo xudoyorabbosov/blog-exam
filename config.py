@@ -2,5 +2,5 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
-# Config nomli class orqali qiling
+class Config:
+    SQLALCHEMY_DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost/blog_db")
