@@ -74,6 +74,7 @@
 blog-exam/
 │── .env
 │── .env.sample
+│── .gitignore
 │── requirements.txt
 │── README.md
 │── demo_data.json
